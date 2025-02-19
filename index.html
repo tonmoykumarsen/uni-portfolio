@@ -10,40 +10,104 @@
 <body>
     <nav>
         <div class="nav-container">
-            <div class="logo">
-                Tanmoy <span>Kumar</span>
-            </div>
-            <div class="links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
+            <div class="logo">Tanmoy <span>Kumar</span></div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
     </nav>
-    <section>
-        <div class="main-container">
-            <div class="image">
-                <img src="./asset/profiletonmoy1.jpg" alt="Portfolio Image">
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="./asset/profiletonmoy1.jpg" alt="Tanmoy Kumar">
             </div>
-            <div class="content">
-                <h1>Hey I'm <span>Tanmoy,</span></h1>
-                <div class="typewriter">I'm a <span class="typewriter-text">Developer</span><label>|</label></div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
-                <div class="social-links">
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <div class="hero-content">
+                <h1>Hey, I'm <span>Tanmoy</span></h1>
+                <div class="typewriter">
+                    I'm a <span class="typewriter-text">Developer</span>
                 </div>
-                <div class="btn">
-                    <button>Hire me</button>
+                <p class="text" >I am a passionate full-stack developer dedicated to building modern, dynamic web experiences with clean, efficient code and elegant design. With expertise in both front-end and back-end development, I create scalable, user-friendly solutions that enhance digital interactions. My focus is on innovation, performance optimization, and delivering high-quality, future-ready applications.</p>
+                <div class="social-links">
+                    <a href="https://github.com/tonmoykumarsen"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/sagor.sen.5059"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@FreelancerTonmoy"> <i class="fab fa-youtube"></i></a>
+                </div>
+                <button class="btn">Contact With Me</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="./asset/./tonmoykumar.jpg" alt="About Tanmoy">
+            </div>
+            <div class="about-content">
+                <h2 class="about-text" >About Me</h2>
+                <p class="text" >I am a highly motivated full-stack web developer with a deep passion for creating visually appealing, functional, and user-friendly websites. With expertise in modern web technologies, I specialize in developing seamless digital experiences that combine clean, efficient, and scalable code with intuitive design. My goal is to bridge the gap between aesthetics and performance, ensuring that every project I work on is both visually striking and technically robust. I am constantly learning and adapting to new technologies, allowing me to build innovative and high-performing web applications. Whether it’s front-end design, back-end development, or API integration, I strive to deliver high-quality solutions that enhance user experience and drive success.</p>
+                <button class="btn">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="skills-container">
+            <h2 class="skill-text" >My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>HTML</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar" style="width: 95%"></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar" style="width: 85%"></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>PHP</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar" style="width: 80%"></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>Laravel</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar" style="width: 75%"></div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+                <input type="email" class="form-control" placeholder="Your Email" required>
+                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
 <script src="./main.js"></script>
 </body>
