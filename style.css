@@ -272,68 +272,23 @@ nav {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-    .hero-container {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    
-    .hero-image {
-        width: 70%;
-        margin: 0 auto;
-    }
-
+@media (max-width: 768px) {
+    .hero-container,
     .about-container {
         grid-template-columns: 1fr;
         text-align: center;
     }
 
-    .skills-grid {
-        grid-template-columns: 1fr;
+    .hero-image {
+        width: 80%;
+        margin: 0 auto;
     }
-}
 
-@media (max-width: 768px) {
+    .social-links {
+        justify-content: center;
+    }
+
     .nav-links {
         display: none;
-    }
-
-    .nav-toggle {
-        display: block;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .typewriter {
-        font-size: 1.5rem;
-    }
-
-    .btn {
-        width: 100%;
-        padding: 0.8rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-
-    .typewriter {
-        font-size: 1.2rem;
-    }
-
-    .social-links a {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
-    .btn {
-        width: 100%;
-        font-size: 0.9rem;
     }
 }
