@@ -25,9 +25,18 @@ body {
 }
 .text{
     color: gray;
+    text-align: justify;
+    margin-left: 20px;
 }
 .edu-box{
     color: gray;
+    text-align: justify;
+    margin-left: 20px;
+    line-height: 30px;
+}
+.font{
+    font-size: 18px;
+
 }
 /* Navigation */
 nav {
@@ -128,17 +137,19 @@ nav {
 .hero-content h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
+    margin-left: 15px;
 }
 
 .typewriter {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    margin-left: 20px;
 }
 
 .social-links {
     display: flex;
     gap: 1rem;
-    margin: 2rem 0;
+    margin: 20px;
 }
 
 .social-links a {
@@ -166,7 +177,7 @@ nav {
     background-color: rgba(7, 123, 50, 0.05);
 }
 .about-text{
-    text-align: center;
+    text-align: left;
     margin: 25px;
 }
 .about-container {
@@ -177,6 +188,9 @@ nav {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+}
+.about-content{
+    margin-bottom: 100px;
 }
 
 .about-image img {
@@ -266,7 +280,9 @@ nav {
     border-radius: 0.5rem;
     cursor: pointer;
     transition: var(--transition);
+    margin-left: 20px;
 }
+
 
 .btn:hover {
     background-color: transparent;
@@ -274,6 +290,7 @@ nav {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px var(--primary-color);
 }
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {
