@@ -26,6 +26,9 @@ body {
 .text{
     color: gray;
 }
+.edu-box{
+    color: gray;
+}
 /* Navigation */
 nav {
     position: fixed;
@@ -159,15 +162,15 @@ nav {
 
 /* About Section */
 .about {
-    padding: 6rem 0;
+    padding: 2rem 0;
     background-color: rgba(7, 123, 50, 0.05);
 }
 .about-text{
     text-align: center;
-    margin-bottom: 15px;
+    margin: 25px;
 }
 .about-container {
-    width: 90%;
+    width: git90%;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
